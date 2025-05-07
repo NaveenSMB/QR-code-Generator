@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+.img{
+    height: 100px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app-container h1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid white;
+}
+
+
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type="text"]{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-button{
+    background-color: rgb(0, 162, 255);
+}
+
+.generate-button:disabled{
+    background-color: rgb(255, 255, 255);
+    cursor: not-allowed;
+}
+
+.download-button{
+    background-color: rgb(21, 172, 21);
+    margin-left: 10px;
+}
+
+.download-button:hover{
+    background-color: rgb(39, 131, 39);
+    margin-left: 10px;
+}
+
+.footer{
+    margin-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(0, 162, 255);
+}
